@@ -43,6 +43,12 @@ class ViewController: UIViewController {
     }
     return snapshot
   }
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if let indexPath = tableView.indexPathForSelectedRow {
+      let controller = segue.destination as? SecondViewController
+      controller?.text = dataSource.itemIdentifier(for: indexPath)?.description
+    }
+  }
 }
 
 typealias Section = Int
@@ -50,9 +56,9 @@ typealias Item = Int
 typealias DataSource = UITableViewDiffableDataSource<Section, Item>
 typealias Snapshot = NSDiffableDataSourceSnapshot<Section, Item>
 
-class TableContent: UITableViewDiffableDataSource<Int, String> {
-  
-}
+
+
+
 
 extension Int {
   static var randomList:[Int] {

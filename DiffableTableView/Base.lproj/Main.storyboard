@@ -34,6 +34,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="HgY-zk-bX6" kind="show" id="6Ua-hu-jMg"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -62,6 +65,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="950.72463768115949" y="-1.3392857142857142"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="uOv-gO-mnV">
+            <objects>
+                <viewController id="HgY-zk-bX6" customClass="SecondViewController" customModule="DiffableTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TX2-pW-cpH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVy-Zn-AL0">
+                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aVy-Zn-AL0" firstAttribute="centerY" secondItem="TX2-pW-cpH" secondAttribute="centerY" id="AlM-Ce-Ooi"/>
+                            <constraint firstItem="aVy-Zn-AL0" firstAttribute="centerX" secondItem="TX2-pW-cpH" secondAttribute="centerX" id="xc6-uM-cTj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="CyP-6I-01y"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aic-8M-AcM"/>
+                    <connections>
+                        <outlet property="label" destination="aVy-Zn-AL0" id="tHZ-FZ-2nE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TnC-PQ-3ps" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1877" y="-7"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oL2-Mp-6Gm">

@@ -13,6 +13,7 @@
 		A7262FC7245FC43F00D8A06B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7262FC5245FC43F00D8A06B /* Main.storyboard */; };
 		A7262FC9245FC44200D8A06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7262FC8245FC44200D8A06B /* Assets.xcassets */; };
 		A7262FCC245FC44200D8A06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7262FCA245FC44200D8A06B /* LaunchScreen.storyboard */; };
+		A7262FD6245FD43500D8A06B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7262FD5245FD43500D8A06B /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		A7262FC8245FC44200D8A06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7262FCB245FC44200D8A06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7262FCD245FC44200D8A06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7262FD3245FD0A500D8A06B /* diffableTableView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = diffableTableView.gif; path = ../../Pictures/screenshots/diffableTableView.gif; sourceTree = "<group>"; };
+		A7262FD4245FD0B600D8A06B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A7262FD5245FD43500D8A06B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		A7262FB3245FC43F00D8A06B = {
 			isa = PBXGroup;
 			children = (
+				A7262FD4245FD0B600D8A06B /* README.md */,
+				A7262FD3245FD0A500D8A06B /* diffableTableView.gif */,
 				A7262FBE245FC43F00D8A06B /* DiffableTableView */,
 				A7262FBD245FC43F00D8A06B /* Products */,
 			);
@@ -59,6 +65,7 @@
 				A7262FBF245FC43F00D8A06B /* AppDelegate.swift */,
 				A7262FC1245FC43F00D8A06B /* SceneDelegate.swift */,
 				A7262FC3245FC43F00D8A06B /* ViewController.swift */,
+				A7262FD5245FD43500D8A06B /* SecondViewController.swift */,
 				A7262FC5245FC43F00D8A06B /* Main.storyboard */,
 				A7262FC8245FC44200D8A06B /* Assets.xcassets */,
 				A7262FCA245FC44200D8A06B /* LaunchScreen.storyboard */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7262FD6245FD43500D8A06B /* SecondViewController.swift in Sources */,
 				A7262FC4245FC43F00D8A06B /* ViewController.swift in Sources */,
 				A7262FC0245FC43F00D8A06B /* AppDelegate.swift in Sources */,
 				A7262FC2245FC43F00D8A06B /* SceneDelegate.swift in Sources */,
