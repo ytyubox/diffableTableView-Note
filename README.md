@@ -1,5 +1,7 @@
 #  DiffableTableView
 
+![](diffableTableView.gif)
+
 ## How I think of it
 
 ```
@@ -60,3 +62,4 @@
 3. SnapShot is only reloadRow for hashabled item, if it has something changed other than hashable, will be ignored by diff.
 4. animation diff using `dataSource.defaultRowAnimation` for both insert/delete.
 5. DataSoure can get item for IndexPath by `dataSource.itemIdentifier(for:)`
+
